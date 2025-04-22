@@ -1,6 +1,6 @@
   version: 0.2
 
-  env:
+  # env:
   #   variables:
   #     DB_HOST: $DB_HOST
   #     SOCIAL_SECRET: $SOCIAL_SECRET
