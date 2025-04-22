@@ -101,6 +101,5 @@
         "operatingSystemFamily": "LINUX"
     },
     "registeredAt": "2025-04-11T17:35:39.498Z",
-    "registeredBy": "arn:aws:iam::420866608360:user/Coder",
-    "tags": []
+    "registeredBy": "arn:aws:iam::420866608360:user/Coder"
 }
