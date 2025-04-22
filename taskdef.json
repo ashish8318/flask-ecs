@@ -2,7 +2,7 @@
     "taskDefinitionArn": "arn:aws:ecs:us-east-2:420866608360:task-definition/Flask-EC2:5",
     "containerDefinitions": [
         {
-            "name": "Flask-EC2",
+            "name": "flask_ecs",
             "image": "<IMAGE1_NAME>",
             "cpu": 256,
             "memory": 512,
