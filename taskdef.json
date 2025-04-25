@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-2:420866608360:task-definition/Flask-EC2:5",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-2:420866608360:task-definition/Flask-EC2:16",
     "containerDefinitions": [
         {
             "name": "flask_ecs",
@@ -48,7 +48,7 @@
     "taskRoleArn": "arn:aws:iam::420866608360:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::420866608360:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 5,
+    "revision": 16,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -88,7 +88,8 @@
     ],
     "placementConstraints": [],
     "compatibilities": [
-        "EC2"
+        "EC2",
+        "FARGATE"
     ],
     "requiresCompatibilities": [
         "EC2"
@@ -99,6 +100,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2025-04-11T17:35:39.498Z",
-    "registeredBy": "arn:aws:iam::420866608360:user/Coder"
+    "registeredAt": "2025-04-22T04:17:13.018Z",
+    "registeredBy": "arn:aws:sts::420866608360:assumed-role/AWSCodePipelineServiceRole-us-east-2-DemoPipeline/1745295432545",
+    "tags": []
 }
