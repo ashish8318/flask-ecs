@@ -101,6 +101,5 @@
         "operatingSystemFamily": "LINUX"
     },
     "registeredAt": "2025-04-22T04:17:13.018Z",
-    "registeredBy": "arn:aws:sts::420866608360:assumed-role/AWSCodePipelineServiceRole-us-east-2-DemoPipeline/1745295432545",
-    "tags": []
+    "registeredBy": "arn:aws:sts::420866608360:assumed-role/AWSCodePipelineServiceRole-us-east-2-DemoPipeline/1745295432545"
 }
