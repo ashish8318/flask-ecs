@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-2:420866608360:task-definition/Flask-EC2:16",
+    "taskDefinitionArn": "<task def arn>",
     "containerDefinitions": [
         {
             "name": "flask_ecs",
@@ -45,8 +45,8 @@
         }
     ],
     "family": "Flask-EC2",
-    "taskRoleArn": "arn:aws:iam::420866608360:role/ecsTaskExecutionRole",
-    "executionRoleArn": "arn:aws:iam::420866608360:role/ecsTaskExecutionRole",
+    "taskRoleArn": "<task execution role>",
+    "executionRoleArn": "<task execution role>",
     "networkMode": "awsvpc",
     "revision": 16,
     "volumes": [],
